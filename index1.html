@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description"contant="Html">
+        <title>Game</title>
+        <link rel="stylesheet"href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+    </head>
+    <body>
+        <header>
+        <h1 class="head">Rock Paper Scissors</h1>
+    </header>
+        <div class="all"> 
+            <div class="board">
+                <span class="user">Player</span>
+                <span id="result"></span>
+                <span class="comp">Comp</span>
+            </div>
+              <div class="PlayersChoice">
+                  <button class="bn" onclick="game(this.value)" value="scissors"><i class="fa">&#xf257;</i></button>
+                  <button class="bn" onclick="game(this.value)" value="rock"><i class="fa">&#xf255;</i></button>
+                  <button class="bn" onclick="game(this.value)" value="paper"><i class="fa">&#xf256;</i></button>
+              </div>
+          <div id="first">
+              <div id="you">
+              <div id="yourchoice"></div>
+              <div class="who">you</div>
+              </div>
+              
+              <div id="ruslt"></div>
+              
+              <div id="computer">
+              <div id="computerchoice"></div>
+              <div class="who">computer</div>
+              </div>
+          </div>
+       </div>  
+        <script src="test6.js"></script>
+    </body>
+</html>
